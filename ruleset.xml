@@ -4,9 +4,13 @@
 
     <!-- php -->
     <rule ref="Generic.CodeAnalysis.ForLoopWithTestFunctionCall"/>
+    <rule ref="Generic.CodeAnalysis.UnconditionalIfStatement"/>
+    <rule ref="Generic.CodeAnalysis.UnnecessaryFinalModifier"/>
+    <rule ref="Generic.CodeAnalysis.UselessOverridingMethod"/>
     <rule ref="Generic.Functions.CallTimePassByReference"/>
     <rule ref="Generic.PHP.DisallowShortOpenTag"/>
     <rule ref="Generic.PHP.LowerCaseConstant"/>
+    <rule ref="Generic.PHP.NoSilencedErrors"/>
     <rule ref="Squiz.PHP.CommentedOutCode" />
     <rule ref="Squiz.PHP.DisallowMultipleAssignments" />
     <rule ref="Squiz.PHP.DisallowSizeFunctionsInLoops" />
@@ -36,6 +40,7 @@
     <rule ref="Squiz.WhiteSpace.SemicolonSpacing"/>
     <rule ref="Squiz.WhiteSpace.SuperfluousWhitespace"/>
     <rule ref="Symfony2.Formatting.BlankLineBeforeReturn"/>
+    <rule ref="Symfony2.WhiteSpace.DiscourageFitzinator"/>
 
     <!-- parenthesis, braces, ... -->
     <rule ref="PEAR.WhiteSpace.ScopeClosingBrace">
@@ -46,6 +51,7 @@
     <rule ref="Generic.Functions.OpeningFunctionBraceBsdAllman"/>
 
     <!-- control structures -->
+    <rule ref="Generic.CodeAnalysis.JumbledIncrementer"/>
     <rule ref="Generic.ControlStructures.InlineControlStructure"/>
     <rule ref="Squiz.CodeAnalysis.EmptyStatement" />
     <rule ref="Squiz.ControlStructures.ForEachLoopDeclaration" />
@@ -58,11 +64,13 @@
     <rule ref="Squiz.Operators.ValidLogicalOperators" />
 
     <!-- naming conventions -->
+    <rule ref="Generic.NamingConventions.ConstructorName"/>
     <rule ref="Generic.NamingConventions.UpperCaseConstantName"/>
     <rule ref="Squiz.NamingConventions.ValidFunctionName" />
     <rule ref="Symfony2.NamingConventions.InterfaceSuffix"/>
 
     <!-- comments -->
+    <rule ref="Generic.Commenting.Todo"/>
     <rule ref="Squiz.Commenting.DocCommentAlignment" />
     <rule ref="Squiz.Commenting.PostStatementComment" />
 
