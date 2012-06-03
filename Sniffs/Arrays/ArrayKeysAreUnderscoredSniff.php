@@ -146,7 +146,7 @@ class Symfony_Sniffs_Arrays_ArrayKeysAreUnderscoredSniff implements PHP_CodeSnif
       {
         continue;
       }
-var_dump($index['index_content']);
+
       if (preg_match("/([0-9]|^'[0-9a-z_]*')$/", $index['index_content']) === 0)
       {
         $error = 'Key "%s" is not in underscored or does not use valid symbols (0-9a-z_)';
