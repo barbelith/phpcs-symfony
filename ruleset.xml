@@ -76,7 +76,7 @@
 
     <!-- declarations -->
     <rule ref="Generic.Classes.DuplicateClassName"/>
-    <rule ref="Pear.Functions.ValidDefaultValue"/>
+    <rule ref="PEAR.Functions.ValidDefaultValue"/>
     <rule ref="Squiz.Functions.FunctionDeclaration" />
     <rule ref="Squiz.Functions.LowercaseFunctionKeywords" />
     <rule ref="Squiz.Objects.ObjectMemberComma"/>
